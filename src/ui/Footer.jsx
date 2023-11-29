@@ -16,7 +16,7 @@ function Footer() {
   ));
 
   return (
-    <footer className="flex items-center justify-between bg-yellow px-8 py-2">
+    <footer className="flex flex-col items-center justify-between bg-yellow px-8 py-2 md:flex-row">
       <div className="w-[90px]">
         <img src="/logos/full-logo.png" alt="" />
       </div>
