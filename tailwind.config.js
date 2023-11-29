@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-let plugin = import("tailwindcss/plugin");
+let plugin = require("tailwindcss/plugin");
 
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
