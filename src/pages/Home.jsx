@@ -18,7 +18,7 @@ function Home() {
       </div>
 
       <div
-        className="flex min-h-screen flex-col items-center justify-center bg-home-4 bg-cover bg-no-repeat px-4 py-24
+        className="bg-home-11 flex min-h-screen flex-col items-center justify-center bg-cover bg-no-repeat px-4 py-24 md:bg-home-4
       "
       >
         <h2 className=" py-12 text-center text-6xl font-bold text-white drop-shadow-xl">
@@ -57,7 +57,7 @@ function Home() {
         </button>
       </div>
 
-      <div className="flex flex-col items-center justify-center bg-home-7 bg-cover bg-no-repeat px-4 py-24">
+      <div className="bg-home-10 flex flex-col items-center justify-center bg-cover bg-no-repeat px-4 py-24 md:bg-home-7">
         <h2 className="py-12 text-center text-6xl font-bold text-white drop-shadow-xl">
           Experience the Fiesta
         </h2>

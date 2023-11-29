@@ -18,6 +18,8 @@ export default {
         "home-7": "url('/fiesta.webp')",
         "home-8": "url('/tacoss.jpg')",
         "home-9": "url('/tacos_drink.webp')",
+        "home-10": "url('/lady.jpg')",
+        "home-11": "url('/waiter.jpg')",
       },
       colors: {
         yellow: "#FEBA18",
