@@ -20,4 +20,3 @@
 
 ---
 
-_This app has an admin panel_ 
