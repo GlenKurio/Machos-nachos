@@ -33,7 +33,7 @@ function Home() {
         </div>
       </div>
       <div
-        className="flex flex-col items-center justify-center bg-home-9 bg-cover bg-fixed bg-right bg-no-repeat px-4 py-24   md:items-center md:justify-between md:px-4 
+        className="flex flex-col items-center justify-center bg-home-9 bg-cover  bg-right bg-no-repeat px-4 py-24   md:items-center md:justify-between md:px-4 
       "
       >
         {/* <h2 className=" py-12 text-center text-6xl font-bold text-white drop-shadow-xl">
