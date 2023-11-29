@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 function Home() {
   return (
     <>
-      <div className="flex h-screen min-h-screen flex-col items-center justify-center gap-16 bg-home-1 bg-cover  bg-center bg-no-repeat py-12">
+      <div className="flex h-screen min-h-screen flex-col items-center justify-center gap-16 bg-home-1 bg-cover  bg-center bg-no-repeat py-12 lg:bg-fixed">
         <div className="pt-8 ">
           <img
             className="max-w-[20rem] drop-shadow-2xl"
@@ -18,7 +18,7 @@ function Home() {
       </div>
 
       <div
-        className="bg-home-11 flex min-h-screen flex-col items-center justify-center bg-cover bg-no-repeat px-4 py-24 md:bg-home-4
+        className="flex min-h-screen flex-col items-center justify-center bg-home-11 bg-cover bg-right bg-no-repeat px-4 py-24 md:bg-home-4 lg:bg-fixed 
       "
       >
         <h2 className=" py-12 text-center text-6xl font-bold text-white drop-shadow-xl">
@@ -39,7 +39,7 @@ function Home() {
         {/* <h2 className=" py-12 text-center text-6xl font-bold text-white drop-shadow-xl">
           Our Culinary Heritage
         </h2> */}
-        <div className="flex flex-col items-center justify-center gap-[4rem] bg-cover  bg-right bg-no-repeat px-4  md:flex-row md:items-center md:justify-between md:px-4 ">
+        <div className="flex flex-col items-center justify-center gap-[4rem] bg-cover  bg-right bg-no-repeat px-4  md:flex-row md:items-center md:justify-between md:px-4 lg:bg-fixed">
           <div className="  self-center rounded-lg bg-red p-5 text-center text-4xl font-bold leading-[1.25] tracking-wide text-white opacity-90 md:w-1/2 md:flex-row md:self-center">
             <p className="max-w-[66ch]  tracking-wide ">
               Try Our Best &lsquo;Machos&rsquo; Taco
@@ -57,7 +57,7 @@ function Home() {
         </button>
       </div>
 
-      <div className="bg-home-10 flex flex-col items-center justify-center bg-cover bg-no-repeat px-4 py-24 md:bg-home-7">
+      <div className="flex flex-col items-center justify-center bg-home-10 bg-cover bg-no-repeat px-4 py-24 md:bg-home-7 lg:bg-fixed">
         <h2 className="py-12 text-center text-6xl font-bold text-white drop-shadow-xl">
           Experience the Fiesta
         </h2>
