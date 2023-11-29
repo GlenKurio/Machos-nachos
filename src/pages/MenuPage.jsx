@@ -28,7 +28,7 @@ function MenuPage() {
 
   return (
     <div>
-      <div className="min-h-screen bg-home-8 bg-cover bg-fixed bg-center bg-no-repeat p-24">
+      <div className="min-h-screen bg-home-8 bg-cover bg-center bg-no-repeat p-24 lg:bg-fixed">
         <div className="flex flex-col items-start justify-center gap-8">
           <h1 className="rounded-full bg-green p-6 text-center text-2xl font-bold text-white opacity-90 md:p-8 md:text-6xl">
             Taco Deal
