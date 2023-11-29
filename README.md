@@ -1,7 +1,3 @@
-ADD:
-1. Payments with stripe
-2. Optimize responsiveness, images
-3. Add geolocation
 
 # Storefront of the mexican food restaurant.
 
@@ -24,4 +20,3 @@ ADD:
 
 ---
 
-_This app has an admin panel_ 
