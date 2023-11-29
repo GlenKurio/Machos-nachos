@@ -9,7 +9,7 @@ export default {
     },
     extend: {
       backgroundImage: {
-        "home-1": "url('/fajitas.jpg')",
+        "home-1": "url('/fajitas.webp')",
         "home-2": "url('/lady.jpg')",
         "home-3": "url('/waiter.jpg')",
         "home-4": "url('/making.jpg')",
